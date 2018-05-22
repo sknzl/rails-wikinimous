@@ -2,10 +2,40 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.container{
-  margin: 0 auto;
-  padding-top: 10px;
-  text-align: center;
-  width: 70%;
+
+.title {
+  a {
+  color: #5F727C;
+  &:hover{
+      opacity: 0.5;
+      text-decoration: none;
+    }
+  }
 }
 
+.title-links {
+  display: inline;
+  a {
+    font-size: 20px;
+    color: #f0ad4e;
+    &:hover{
+      opacity: 0.5;
+      text-decoration: none;
+    }
+  }
+}
+
+.content {
+  text-align: left;
+  a {
+  color: #5F727C;
+  &:hover{
+      opacity: 0.5;
+      text-decoration: none;
+    }
+  }
+}
+
+.article {
+  border-bottom: 1px solid grey
+}

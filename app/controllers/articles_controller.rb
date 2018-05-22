@@ -6,12 +6,12 @@ class ArticlesController < ApplicationController
   end
 
   def new
-    @article = article.new
+    @article = Article.new
   end
 
   def create
     Article.create(article_params)
-    redirect_to article_path
+    redirect_to articles_path
   end
 
   def show
@@ -22,12 +22,12 @@ class ArticlesController < ApplicationController
 
   def update
     @article.update(article_params)
-    redirect_to article_path
+    redirect_to articles_path
   end
 
   def destroy
     @article.destroy
-    redirect_to article_path
+    redirect_to articles_path
   end
 
 

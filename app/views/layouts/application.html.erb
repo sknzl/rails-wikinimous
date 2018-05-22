@@ -10,6 +10,7 @@
   </head>
 
   <body>
+
     <div class="navbar-wagon">
     <!-- Logo -->
     <%=link_to "Wikinimous", articles_path, :class => "navbar-wagon-brand" %>
@@ -20,6 +21,8 @@
     <%=link_to "New article", new_article_path, :class => "btn btn-warning" %>
     </div>
     </div>
+    <div class="container">
     <%= yield %>
+    </div>
   </body>
 </html>

@@ -1,6 +1,18 @@
 @import "bootstrap";
 @import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
 @import "articles";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+body {
+  font-family: "Roboto Slab";
+  font-weight: 400;
+}
+.container{
+  margin: 0 auto;
+  padding-top: 10px;
+  text-align: center;
+  width: 70%;
+}
 
 /* Main navbar */
 .navbar-wagon {
@@ -33,4 +45,7 @@
   justify-content: space-between;
 }
 
+.formarea {
+  height: 500px;
+}
 
