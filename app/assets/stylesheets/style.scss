@@ -9,7 +9,7 @@ body {
 }
 .container{
   margin: 0 auto;
-  padding-top: 10px;
+  padding-top: 100px;
   text-align: center;
   width: 70%;
 }
@@ -24,6 +24,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0;
+  width: 100%;
 }
 
 /* Logo */

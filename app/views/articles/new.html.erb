@@ -1,1 +1,12 @@
+<% if @article.errors.any? %>
+  <div class="">
+    <h3>ERROR! PLEASE FIX:</h3>
+    <ul class="list-unstyled">
+    <% @article.errors.each do |error, message| %>
+      <li><%= error %>: <%= message %></li>
+    <% end %>
+    </ul>
+  </div>
+<% end %>
+
 <%= render 'form', article: @article %>

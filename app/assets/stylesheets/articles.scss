@@ -37,5 +37,13 @@
 }
 
 .article {
-  border-bottom: 1px solid grey
+  border-bottom: 1px solid grey;
+}
+
+.field_with_errors input{
+  border: 1px solid red;
+}
+
+.field_with_errors textarea{
+  border: 1px solid red;
 }
