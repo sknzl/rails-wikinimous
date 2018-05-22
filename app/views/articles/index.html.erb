@@ -1,0 +1,14 @@
+<div class="container">
+
+<ul class="list-unstyled">
+<% @articles.each do |article| %>
+  <li>
+    <h1> <%=link_to article.title, article_path(article)%> </h1>
+    <p>
+      <%= truncate(article.content,length: 150, separator: ' ') %>
+      <%=link_to "continue", article_path(article)%>
+    </p>
+  </li>
+<%end%>
+</ul>
+</div>
